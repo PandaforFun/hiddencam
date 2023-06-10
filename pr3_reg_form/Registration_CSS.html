@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Registration With CSS</title>
+<style>
+.main
+{
+width: 40%;
+margin:2em auto;
+border:2px solid black;
+padding:1em;
+}
+ 
+.main input[type="submit"]
+{
+width:95%;
+border: 1px solid black;
+padding: .5em;
+margin: .5em;
+}
+ 
+.main input[type="password"]
+{
+width: 95%;
+border:1px solid black;
+padding: .5em;
+margin: .5em;
+}
+ 
+.maininput[type="text", .main input[type="email"]
+{
+width: 40%;
+border: 1px solid black;
+padding: .5em;
+margin: .5em;
+}
+</style>
+ 
+</head>
+<body>
+<div class="main">
+ 
+<form method="post" action="student.php">
+<h2>Bharti vidhyapeeth (Deemed to be University) College of Engineering Pune</h2>
+<h3>Student Registration</h3>
+Name: <input type="text" name="fname" placeholder="First Name">
+<input type="text" name="lname" placeholder="Last Name"><br><br>
+Email: <input type="email" name="email" placeholder="Email"><br><br>
+Contact No.: <input type="text" name="mobile" placeholder="Mobile"><br><br>
+City: <input type="text" name="city" placeholder="city"><br>
+<hr>
+ 
+	Gender <br>
+	<input type="radio" name="gender" value="Male">Male<br>
+	<input type="radio" name="gender" value="female"> Female<br>
+	<hr>
+	<label for="branch">Choose Branch</label><br>
+	<select name="branch">
+	<option selected disabled>-- select -- </option>
+	<option value="computer"> Computer Engineering</option>
+	<option value="computer science and engineering"> Computer Science and Engineering</option>
+	<option value="Electronics"> Electrical Engineering</option>
+	<option value="Mechanical"> Mechanical Engineering</option>
+	</select><br>
+<hr>
+Hobbies<br>
+<input type="checkbox" name="hobby[]" value="Cricket"> Cricket<br>
+<input type="checkbox" name="hobby[]" value="Football"> Football<br>
+<input type="checkbox" name="hobby[]" value="Chess"> Chess<br>
+<hr>
+ Enter Password<br>
+ <input type="Password" name="pass" placeholder="Password"><br>
+ <br>
+ <input type="submit" name="submit" value="Register">
+ </form>
+ </div>
+ </html>
