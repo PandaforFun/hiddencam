@@ -21,7 +21,7 @@ switch($ch)
 	case 3: echo "<h3>Delete Operation on Associative Array</h3>";
 		  echo "Associative array Before deleting the elemlent <br><br>";
 		  print_r($info);
-		  unset($info["l"]);
+		  unset($info["3"]);
 		  echo "<br><br> Associative array After delete the element <br><br>";
 		  print_r($info);
 		  break;
