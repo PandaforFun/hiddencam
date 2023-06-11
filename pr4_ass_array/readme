@@ -1,0 +1,4 @@
+Write a program to perform the following operations on an associative array.
+1.Display elements of an array along with their keys.
+2.Display size of array.
+3.Delete an element from an array from the given index.
